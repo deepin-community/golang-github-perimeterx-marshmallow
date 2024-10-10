@@ -1,5 +1,19 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-perimeterx-marshmallow (1.1.5-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.1.5
+  * Remove golang-github-go-test-deep-dev from -dev dependency
+    as it is used only in tests
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Thu, 12 Oct 2023 01:08:07 -0600
+
+golang-github-perimeterx-marshmallow (1.1.4-2) unstable; urgency=medium
+
+  * Source-only upload for migration to testing
+
+ -- Anthony Fok <foka@debian.org>  Wed, 01 Feb 2023 12:43:44 -0700
+
+golang-github-perimeterx-marshmallow (1.1.4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1029644)
+
+ -- Anthony Fok <foka@debian.org>  Wed, 25 Jan 2023 13:26:18 -0700
